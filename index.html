@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Name of our website</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!––Linking to custom styles here so we can override any bootstrap styles we do not like––>
+    <link rel="stylesheet" type="text/css" href="css/custom-styles.css">
+
+    <title>Support System</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
   </head>
 
 
 <body>
-  <h1> Heading of our website </h1>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Home</a>
+      </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+          <ul class="nav navbar-nav">
+               <li><a href="#">About us</a></li>
+               <li><a href="#">People's stories</a></li>
+               <li><a href="#">Useful resources</a></li>
+             </ul>
+         <form class="navbar-form navbar-left pull-right" role="search">
+           <div class="form-group">
+             <input type="text" class="form-control" placeholder="Search">
+           </div>
+           <button type="submit" class="btn btn-default">
+           <span class="glyphicon glyphicon-search"></span>
+         </button>
+         </form>
+           </div>
+         </div>
+       </nav>
+     </div>
+
+  <h1> Support System </h1>
 
   <ul class='nav'>
       <li><a href="#about_us">About us</a></li>
@@ -20,3 +58,10 @@
   <img src="https://i0.wp.com/confidentman.net/wp-content/uploads/angry-woman.jpg?resize=768%2C512&ssl=1" alt="Angry woman shouting at a hand">
 
 </body>
+
+
+<!––
+Adding social Buttons
+Adding searchbar & nav
+Adding core content blocks
+––>
