@@ -1,3 +1,14 @@
+
+
 body {
   padding-top: 50px;
+}
+
+.exit_site {
+  style=transform: rotate(90deg);
+	transform-origin: left top 0;
+  color: black;
+  background: #d8de26;
+  padding: 10px 30px 10px 30px;
+  font:
 }
