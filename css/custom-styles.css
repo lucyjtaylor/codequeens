@@ -18,3 +18,15 @@ footer {
 .footer_heading {
   font-size: 20px;
 }
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Montserrat Subrayada', sans-serif;
+
+
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
