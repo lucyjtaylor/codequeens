@@ -12,3 +12,7 @@ body {
   padding: 10px 30px 10px 30px;
   font:
 }
+
+.footer_social_links {
+  list-style-type: none;
+}
