@@ -45,12 +45,16 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   color: #0A466A;
 }
-bs-example-navbar-collapse-9 {
+#bs-example-navbar-collapse-9 {
   color: #156B9F
 }
 footer_social_links {
   color: #7A14CB
 }
-col-sm-4{
+.dropdown-toggle {
   color: #7A14CB
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+  color: #7A14CB;
 }
