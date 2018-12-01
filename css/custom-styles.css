@@ -22,10 +22,13 @@ h1 {
   font-size: 50px;
   text-align: center;
   font-family: 'Montserrat Subrayada', sans-serif;
-
-
 }
 
 * {
   font-family: 'Open Sans', sans-serif;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
