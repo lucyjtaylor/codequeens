@@ -32,3 +32,26 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+form {
+  display: block;
+padding-left: 120px;
+padding-right: 120px;
+}
+
+#form-Description {
+  padding: 20px 0px 0px 0px;
+}
+
+#form-Description-label {
+  padding: 10px 0px 0px 40px;
+}
+
+#form-Description-area {
+  padding-left: 115px;
+
+}
+
+#submit-button {
+  padding: 15px 10px 15px 15px;
+}
