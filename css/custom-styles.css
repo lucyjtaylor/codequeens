@@ -93,14 +93,14 @@ iframe {
     outline: none;
     justify-content: center
 }
-.container twitter-timeline {
-align-items: center;
-justify-content: center;
-}
+
 .jumbotron {
   background-color: #C0C0C0
 }
 .btn.btn-info {
   background-color: #510A6A
   color:#C0C0C0
+}
+.col-lg-6 {
+  padding-bottom: 10px
 }
