@@ -50,6 +50,11 @@ h1
 * {
   font-family: 'Open Sans', sans-serif;
   color: 		#787878;
+  font-weight: bold;
+}
+* p {
+  font-weight: normal;
+  font-size: 16px
 }
 #bs-example-navbar-collapse-9 {
   color: #C0C0C0
@@ -93,5 +98,9 @@ align-items: center;
 justify-content: center;
 }
 .jumbotron {
-  color: #C0C0C0
+  background-color: #C0C0C0
+}
+.btn.btn-info {
+  background-color: #510A6A
+  color:#C0C0C0
 }
