@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!--Linking to custom styles here so we can override any bootstrap styles we do not like-->
+    <link rel="stylesheet" type="text/css" href="css/custom-styles.css">
+
+    <title>Your Stories</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+            <span class="glyphicon glyphicon-home"</span>
+  </a>
+        </div>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                 <li><a href="#">About us</a></li>
+                 <li><a href="#">Your stories</a></li>
+                 <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Your legal rights</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">In the workplace</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Help someone else</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Build awareness</a></li>
+            </ul>
+                 <li #reportit><a href="#">Report it</a></li>
+               </ul>
+           <form class="navbar-form navbar-left pull-right" role="search">
+             <div class="form-group">
+               <input type="text" class="form-control" placeholder="Search">
+             </div>
+             <button type="submit" class="btn btn-default">
+             <span class="glyphicon glyphicon-search"></span>
+           </button>
+           </form>
+             </div>
+           </div>
+         </nav>
+       </div>
+
+
+<h1>Your Stories</h1>
+
+<!-- introductory copy-->
+<div id=your-stories-copy>
+  <p>Have you ever felt unsafe walking around London as a lone woman? So have we, and that's why we've created our Your Stories map.
+    This map shows the locations of incidents of sexual assault, which have been reported by fellow Support Sisters. </p>
+
+  <p>It can serve you in a number of ways:
+    <ul id=your-stories-list>
+      <li >It brings together a picture of which areas of London are particularly dangerous for lone women so that you can plan your journeys around this knowledge</li>
+      <li>It can help you to recognise that you share an experience with another woman who was assaulted by the same person, and might give you the courage to report an assault to help stop this from happening again</li>
+      <li>It can serve as a way for you to report an incident of assault if you do not feel ready to go to the police. We will never report an incident for you, but we use the stories submitted to the map to learn about how and where we should campaign. It gives us the tools and knowledge to fight on your behalf. </li>
+    </ul>
+  </p>
+
+  <h2>Guidlines for Submission</h2>
+  <p>Please be aware that many people using this map may have experienced sexual assault, and so may find it difficult to read these reports. To make this accessible to everyone, please do not use graphic language.
+    <br> <br>
+  Any submission can be made anonymous upon your request, even after uploading. Just e-mail map@supportsisters.org.uk and we will anonymise your submission.</p>
+  <br>
+
+</div>
+
+
+<!--form section-->
+
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-1 control-label">Name</label>
+    <div class="col-sm-11">
+      <input type="email" class="form-control" id="inputName3" placeholder="Your name">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-1 control-label">Email</label>
+    <div class="col-sm-11">
+      <input type="e-mail" class="form-control" id="inputEmail3" placeholder="Your E-mail">
+      <small id="consentstatement" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+
+  <div class="form-group" id="form-Description">
+    <label for="inputdescription" id="form-Description-label">Description of the incident:</label>
+    <div class="col-sm-11" id="form-Description-area">
+      <textarea class="form-control" rows="3" placeholder="Share your experience..."></textarea>
+    </div>
+  </div>
+
+  <div class="checkbox">
+    <div class="col-sm-offset-1 col-sm-11">
+      <label>
+        <input type="checkbox">
+        Please change my details to keep me anonymous</label>
+    </div>
+  </div>
+
+    <div class="form-group" id="submit-button">
+      <div class="col-sm-offset-1 col-sm-11">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+</form>
+
+<!--map section-->
+<div class="row" id="mapblock">
+<iframe id="supportmap" src="https://www.google.com/maps/d/u/0/embed?mid=1V9CyKudXPmgFuDYRMMXn3xMw5aGd-fgY" width="640" height="480" width="640" height="480"></iframe>
+</div>
+
+<br>
+<br>
+
+    <footer id="footer">
+      <div class="col-sm-4" id="footer_newsletter">
+        <p class="footer_heading">Stay in touch</p>
+        <p>Sign up to our newsletter to hear about ..........</p>
+          <input type="email" placeholder="Your email">
+          <input type="submit">
+      </div>
+
+      <div class="col-sm-4">
+        <p class="footer_heading">Navigate</p>
+        <ul class="list-unstyled" id="footer_navigate">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Your stories</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Report it</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-sm-4" id="footer_social_links">
+      <ul class="footer_social_links">
+            <li class="footer_facebook">
+              <a href="https://www.facebook.com" alt="Open Facebook in a new window/tab">
+                <img src="assets/icons/social-1_round-facebook.svg" alt="Facebook">
+              </a>
+            </li>
+            <li class="footer_twitter">
+              <a href="https://twitter.com"alt="Open Twitter in a new window/tab">
+                <img src="assets/icons/social-1_round-twitter.svg" alt="Facebook">
+              </a>
+            </li>
+            <li class="footer_youtube">
+              <a href="https://youtube.com"alt="Open YouTube in a new window/tab">
+                <img src="assets/icons/social-1_round-youtube.svg" alt="Facebook">
+              </a>
+            </li>
+            <li class="footer_instagram">
+              <a href="https://instagram.com"alt="Open Instagram in a new window/tab">
+                <img src="assets/icons/social-1_round-instagram.svg" alt="Facebook">
+              </a>
+            </li>
+          </ul>
+      <p>Support System</p>
+      <p>Registered Charity no.#######</p>
+    </div>
+    </footer>
+
+  </body>
+  </html>
