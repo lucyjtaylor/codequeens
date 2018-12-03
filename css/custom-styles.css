@@ -49,11 +49,19 @@ padding-right: 120px;
 
 #form-Description-area {
   padding-left: 115px;
-
 }
 
 #submit-button {
   padding: 15px 10px 15px 15px;
+}
+
+#your-stories-copy {
+  padding: 0px 20px 0px 20px;
+}
+
+#your-stories-list {
+  padding: 0px 20px 0px 40px;
+  list-style-position: outside;
 }
 
 html
@@ -144,7 +152,7 @@ h2{
 }
 iframe {
     outline: none;
-    justify-content: center
+    justify-content: center;
 }
 .container twitter-timeline {
 align-items: center;
